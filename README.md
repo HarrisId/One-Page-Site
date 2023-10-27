@@ -4,7 +4,9 @@ The project mostly focuses on using css styling and react.js functionality. The 
 
 Some key takeaways are:
 Fonts taken from google fonts
-To launch the app, first need to install npm using "npm-install" and then run with "npm start"
+To launch the app, first need to install npm using "npm install" and then run with "npm start"
+Current Location Fire Danger Functionality is the coolest part of the assignment.  
+Below are some challenges faced:
 
 # Technical Notes
 
