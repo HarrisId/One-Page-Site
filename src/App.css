@@ -1,0 +1,253 @@
+/* Navbar content */
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('./fonts/Roboto_Condensed/static/RobotoCondensed-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'RobotoLight';
+    src: url('./fonts/Roboto_Condensed/static/RobotoCondensed-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.nav{
+    background-color: black;
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: "RobotoMedium",sans-serif;
+    font-size: large;
+    z-index: 20;
+}
+
+.nav-left-content{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-list-item{
+    margin-left: 30px;
+}
+.nav-list-item:hover{
+    color: rgb(146, 157, 167);
+    cursor: pointer;
+}
+
+.nav-right-content{
+    display: flex;
+    align-items: center;
+}
+
+.nav-button{
+    padding: 14px;
+    background-color: orange;
+    color: black;
+    border:none;
+    font-family: "RobotoMedium",sans-serif;
+    font-size: large;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.nav-button:hover {
+    background-color: rgb(250, 190, 78);
+  }
+
+  /* Removing anchor tag styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+/* Main video */
+.main-video-container{
+    position: relative;
+
+}
+
+.main-video{
+    width: 100%;
+}
+.main-video-headline{
+position: absolute;
+bottom: 30px;
+background: black;
+padding: 20px;
+font-size: larger;
+border-left: 8px solid red;
+color: white;
+font-family: "RobotoMedium",sans-serif;
+left: 40px;
+right:40px;
+}
+
+/* Main Body */
+
+.main-body{
+  /*   width: 80%;
+    margin-left: auto;
+    margin-right: auto; */
+}
+/* Reusable section parts */
+.section{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.section-colored{
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: rgb(237, 240, 245);
+}
+
+.section-heading{
+    font-family: "RobotoMedium",sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    font-size: 50px;
+}
+.section-image{
+    display: block;
+    margin: 0 auto;
+    width: 60%;
+   
+}
+.img-reference{
+    font-family: "RobotoLight",sans-serif;
+    margin: 0 auto;
+    width: 60%;
+    padding-top: 8px;
+}
+
+/* Section data */
+
+.section-paragraph{
+    font-family: "RobotoLight",sans-serif;
+    font-size: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    padding-bottom: 8px;
+}
+.bullet-paragraph{
+    font-family: "RobotoLight",sans-serif;
+    font-size: 20px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 30px;
+    padding-bottom: 8px;
+}
+
+.section4-video-container{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section4-video{
+    width: 100%;
+}
+
+.testimonial-image{
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 380px;
+    height: 350px;
+}
+
+.testimonial-reference{
+    font-family: "RobotoLight",sans-serif;
+    text-align: center;
+    padding-top: 8px;
+}
+
+/* Weather API section */
+
+.weather-section-container{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+.location-button-container{
+   display: flex;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.location-button{
+    width: 40%;
+    padding: 20px;
+    background-color: orange;
+    border:none;
+    font-family: "RobotoMedium",sans-serif;
+    font-size: large;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.location-button:hover {
+    background-color: rgb(250, 190, 78);
+  }
+
+  .weather-card{
+    background-color: rgb(48, 47, 47);
+    color: white;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+  }
+  .weather-text{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .weather-image{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: -50px;
+}
+.weather-condition-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reference-link{
+    color:red
+}
+
+/* Fade effect on scroll */
+
+
+  .reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal-active{
+    transform: translateY(0);
+    opacity: 1;
+  }
