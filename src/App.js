@@ -1,4 +1,4 @@
-// Importing assets and styles
+// Importing assets and style
 import logo from "./logo.svg";
 import "./App.css";
 import mainVideo from "./assets/bbc-video.mp4";
