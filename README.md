@@ -1,14 +1,26 @@
+# Introduction
+
 The website(or react app exactly) is made using Javascript React Library the most popular library right now.
-The project was made only on App.js and App.css, rest of the files belong to react library. The src folder was updated according to needs and requirements.
+The code is on App.js and App.css, rest of the files belong to react library. The src folder was updated according to needs and requirements.
 The project mostly focuses on using css styling and react.js functionality. The reserach part wasn't given more than 5 hours as the assignment was a programming project not research project.
 
 Some key takeaways are:
 Fonts taken from google fonts
 To launch the app, first need to install npm using "npm install" and then run with "npm start"
-Current Location Fire Danger Functionality is the coolest part of the assignment.  
-Below are some challenges faced:
+Current Location Fire Danger Functionality is the coolest part of the assignment.
 
-# Technical Notes
+# What I Did Well?
+
+The layouts, which were perfectly built and the css styling along with fonts and making the theme close to geographical themed website.
+Thinking out of box and create weather app using json api
+Working with react.js
+
+# Things that could have been possibly improved?
+
+The funtionality as per single page website looks great, but can be improved further if we take it to multiple pages. Also there could be implementation of different design ideas of website layouts. The design aspect of website could've been improved.
+Weather app picture is static, it could have been improved to change as per current weather.
+
+# Production Notes
 
 For the Navbar, first of all I have used flex property to add space between two containers that will make one content to the left and other to right. Navbar is set to fixed which means it will appear all the time on the screen.
 
