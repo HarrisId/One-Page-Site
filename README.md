@@ -6,7 +6,6 @@ The project mostly focuses on using css styling and react.js functionality. The 
 
 Some key takeaways are:
 Fonts taken from google fonts
-To launch the app, first need to install npm using "npm install" and then run with "npm start"
 Current Location Fire Danger Functionality is the coolest part of the assignment.
 To launch the app, open folder in visual studio code. open terminal. run these two commands
 1: npm install
